@@ -17,7 +17,7 @@ return new class extends Migration
             $table->integer('amount');
             $table->string('status'); // B = Builed, P = Paid, V = Void
             $table->dateTime('builed_date');
-            $table->dateTime('paied_date')->nullable();
+            $table->dateTime('paid_date')->nullable();
             $table->timestamps();
         });
     }
